@@ -1,0 +1,29 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2mm
+D 2mm through hole
+K bigpin,2mm,header
+$ENDCMP
+#
+$CMP AMS1117
+D Breakout for AMS1117 module
+K 3.3v,3v,regulator,supply
+$ENDCMP
+#
+$CMP AS608
+D Fingerprint reader module
+K fingerprint,reader
+$ENDCMP
+#
+$CMP RC522
+D I2C/SPI RFID reader
+K rfid,reader
+$ENDCMP
+#
+$CMP RoboClaw_2x15A-60A
+D Breakout for RoboClaw 2-channel 15A to 60A versions
+K roboclaw,motor,driver
+F https://downloads.basicmicro.com/docs/roboclaw_datasheet_2x15A.pdf
+$ENDCMP
+#
+#End Doc Library
