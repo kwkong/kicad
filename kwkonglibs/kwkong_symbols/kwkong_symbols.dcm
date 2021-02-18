@@ -2,7 +2,7 @@ EESchema-DOCLIB  Version 2.0
 #
 $CMP 2N2222
 D 1A Ic, 40V Vce, Small Signal NPN Transistor, TO-92
-K NPN Transistor 2N2222 
+K NPN Transistor 2N2222
 F http://www.next.gr/components-datasheets/2N2222.pdf
 $ENDCMP
 #
@@ -33,10 +33,20 @@ K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
 $ENDCMP
 #
+$CMP LoRa-E32
+D EBYTE E32 LoRa Module
+K LoRa Ebyte E32
+F https://www.ebyte.com/en/downpdf.aspx?id=141
+$ENDCMP
+#
 $CMP PC817_Optoisolator
 D General Purpose Photocoupler
 K Opto Optoisolator PC817 Photocoupler
 F https://www.farnell.com/datasheets/73758.pdf
+$ENDCMP
+#
+$CMP Push_button
+K push button switch
 $ENDCMP
 #
 $CMP RC522
