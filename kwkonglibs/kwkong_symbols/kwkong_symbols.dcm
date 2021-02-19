@@ -21,6 +21,12 @@ D Fingerprint reader module
 K fingerprint,reader
 $ENDCMP
 #
+$CMP CD74HC4067
+D 16 Channel Analog/Digital Multiplexer Breakout 
+K mux multiplexer 16 channel
+F https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf?ts=1613748152636&ref_url=https%253A%252F%252Fwww.google.com%252F
+$ENDCMP
+#
 $CMP ESP32-DevModule
 D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
 K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
