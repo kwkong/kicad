@@ -66,9 +66,9 @@ K roboclaw,motor,driver
 F https://downloads.basicmicro.com/docs/roboclaw_datasheet_2x15A.pdf
 $ENDCMP
 #
-$CMP eInkDisplay-4.3"
+$CMP eInkDisplay_4.3in
 D E-Ink Display 4.3inch 800x600
-K eink display 4.3 
+K eink display 4.3
 F https://www.waveshare.com/4.3inch-e-paper.htm
 $ENDCMP
 #
