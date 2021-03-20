@@ -11,6 +11,11 @@ D 2mm through hole
 K bigpin,2mm,header
 $ENDCMP
 #
+$CMP AC_to_5VDC_buck
+D 220/110VAC to 5VDC Buck converter
+K buck dc ac converter
+$ENDCMP
+#
 $CMP AMS1117
 D Breakout for AMS1117 module
 K 3.3v,3v,regulator,supply
@@ -27,6 +32,11 @@ K mux multiplexer 16 channel
 F https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf?ts=1613748152636&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
+$CMP DC_DC_buck_adjustable_20mm_3A
+D Adjustable buck converter DC to DC 
+K dc to dc buck adjustable
+$ENDCMP
+#
 $CMP ESP32-DevModule
 D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
 K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
@@ -37,6 +47,12 @@ $CMP ESP32-WROOM-32D
 D RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
 K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
 F https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf
+$ENDCMP
+#
+$CMP HK19F_DPDT
+D HK19F_DPDT Subminiature Relay
+K double pole double throw relay
+F http://grobotronics.com/images/datasheets/HK19F-12V.pdf
 $ENDCMP
 #
 $CMP LoRa-E32
@@ -64,18 +80,6 @@ $CMP RoboClaw_2x15A-60A
 D Breakout for RoboClaw 2-channel 15A to 60A versions
 K roboclaw,motor,driver
 F https://downloads.basicmicro.com/docs/roboclaw_datasheet_2x15A.pdf
-$ENDCMP
-#
-$CMP eInkDisplay-4.3"
-D E-Ink Display 4.3inch 800x600
-K eink display 4.3
-F https://www.waveshare.com/4.3inch-e-paper.htm
-$ENDCMP
-#
-$CMP eInkDisplay-4.3in
-D E-Ink Display 4.3inch 800x600
-K eink display 4.3
-F https://www.waveshare.com/4.3inch-e-paper.htm
 $ENDCMP
 #
 $CMP eInkDisplay_4.3in
