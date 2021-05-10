@@ -11,6 +11,12 @@ D 2mm through hole
 K bigpin,2mm,header
 $ENDCMP
 #
+$CMP 4CH_Level_Shifter
+D 4 Channel Bidirectional 3.3V to 5V Logic Level Shifter
+K Level Shifter
+F https://www.amazon.com/KeeYees-Channels-Converter-Bi-Directional-Shifter/dp/B07LG646VS/ref=sr_1_3?dchild=1&keywords=level+shifter&qid=1620673404&sr=8-3
+$ENDCMP
+#
 $CMP AC_to_5VDC_buck
 D 220/110VAC to 5VDC Buck converter
 K buck dc ac converter
@@ -33,7 +39,7 @@ F https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf?ts=1613748152636&ref_url=http
 $ENDCMP
 #
 $CMP DC_DC_buck_adjustable_20mm_3A
-D Adjustable buck converter DC to DC 
+D Adjustable buck converter DC to DC
 K dc to dc buck adjustable
 $ENDCMP
 #
@@ -59,6 +65,12 @@ $CMP LoRa-E32
 D EBYTE E32 LoRa Module
 K LoRa Ebyte E32
 F https://www.ebyte.com/en/downpdf.aspx?id=141
+$ENDCMP
+#
+$CMP MAX485_breakout
+D MAX485 RS485 to TTL Converter Breakout Board 
+K MAX485 RS485 TTL
+F https://www.amazon.com/Max485-Chip-RS-485-Module-Raspberry/dp/B00NIOLNAG/ref=sr_1_3?dchild=1&keywords=max485+breakout&qid=1620675286&sr=8-3
 $ENDCMP
 #
 $CMP PC817_Optoisolator
