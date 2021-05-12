@@ -61,6 +61,12 @@ K double pole double throw relay
 F http://grobotronics.com/images/datasheets/HK19F-12V.pdf
 $ENDCMP
 #
+$CMP HW-685
+D Current to Voltage Module 0/4-20mA to 0-3.3V/5V/10V Voltage
+K HW-685 Current to Voltage HART 4-20
+F https://www.amazon.com/Ximimark-Converter-Transmitter-Conversion-Conditioning/dp/B07MYXVDDX/ref=sr_1_3?dchild=1&keywords=4-20ma+converter&qid=1620834977&s=electronics&sr=1-3
+$ENDCMP
+#
 $CMP LoRa-E32
 D EBYTE E32 LoRa Module
 K LoRa Ebyte E32
@@ -68,7 +74,7 @@ F https://www.ebyte.com/en/downpdf.aspx?id=141
 $ENDCMP
 #
 $CMP MAX485_breakout
-D MAX485 RS485 to TTL Converter Breakout Board 
+D MAX485 RS485 to TTL Converter Breakout Board
 K MAX485 RS485 TTL
 F https://www.amazon.com/Max485-Chip-RS-485-Module-Raspberry/dp/B00NIOLNAG/ref=sr_1_3?dchild=1&keywords=max485+breakout&qid=1620675286&sr=8-3
 $ENDCMP
