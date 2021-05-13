@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 20mm_DC-DC_Buck
+D Adjustable buck converter DC to DC
+K dc to dc buck adjustable
+$ENDCMP
+#
 $CMP 2N2222
 D 1A Ic, 40V Vce, Small Signal NPN Transistor, TO-92
 K NPN Transistor 2N2222
@@ -36,11 +41,6 @@ $CMP CD74HC4067
 D 16 Channel Analog/Digital Multiplexer Breakout
 K mux multiplexer 16 channel
 F https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf?ts=1613748152636&ref_url=https%253A%252F%252Fwww.google.com%252F
-$ENDCMP
-#
-$CMP DC_DC_buck_adjustable_20mm_3A
-D Adjustable buck converter DC to DC
-K dc to dc buck adjustable
 $ENDCMP
 #
 $CMP ESP32-DevModule
@@ -98,6 +98,12 @@ $CMP RoboClaw_2x15A-60A
 D Breakout for RoboClaw 2-channel 15A to 60A versions
 K roboclaw,motor,driver
 F https://downloads.basicmicro.com/docs/roboclaw_datasheet_2x15A.pdf
+$ENDCMP
+#
+$CMP SIM900A_V4.0
+D SIM900A GSM/GPRS module breakout V4.0 
+K SIM900A GPRS GSM Module
+F https://components101.com/asset/sites/default/files/component_datasheet/SIM900A%20Datasheet.pdf
 $ENDCMP
 #
 $CMP eInkDisplay_4.3in
