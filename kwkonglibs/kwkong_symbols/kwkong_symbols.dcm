@@ -43,6 +43,12 @@ K mux multiplexer 16 channel
 F https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf?ts=1613748152636&ref_url=https%253A%252F%252Fwww.google.com%252F
 $ENDCMP
 #
+$CMP DS3231
+D RTC Breakout Module
+K RTC
+F https://datasheets.maximintegrated.com/en/ds/DS3231.pdf
+$ENDCMP
+#
 $CMP ESP32-DevModule
 D RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD
 K RF Radio BT ESP ESP32 Espressif onboard PCB antenna
@@ -101,7 +107,7 @@ F https://downloads.basicmicro.com/docs/roboclaw_datasheet_2x15A.pdf
 $ENDCMP
 #
 $CMP SIM900A_V4.0
-D SIM900A GSM/GPRS module breakout V4.0 
+D SIM900A GSM/GPRS module breakout V4.0
 K SIM900A GPRS GSM Module
 F https://components101.com/asset/sites/default/files/component_datasheet/SIM900A%20Datasheet.pdf
 $ENDCMP
