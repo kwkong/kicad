@@ -118,4 +118,10 @@ K eink display 4.3
 F https://www.waveshare.com/4.3inch-e-paper.htm
 $ENDCMP
 #
+$CMP pushbutton_LED
+D LED Illuminated Tactile Switch 12x12x7.3mm
+K LED tactile push button
+F https://www.aliexpress.com/item/32761073048.html?spm=a2g0o.search0302.0.0.aeb02b5bVk71zU&algo_pvid=250110d8-7a6d-4cae-9725-2993d46d4818&algo_expid=250110d8-7a6d-4cae-9725-2993d46d4818-12&btsid=0b0a556c16255080631148350eb426&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_
+$ENDCMP
+#
 #End Doc Library
